@@ -1,16 +1,21 @@
 # DataWareHouse Analytics Project
+
 ## 📊 Sales Data Analytics SQL Project
+
 ### 🔍 Project Purpose
-Transform raw sales and dimension data into two strategic analytics views—Customer Report and Product Report—within the gold schema. These views turn transactional data into actionable business intelligence, ideal for dashboards and strategic decision-making.
+Transform raw sales and dimension data into two strategic analytics views—Customer Report and Product Report—within the gold schema. These views enable actionable BI insights for dashboards and strategic decision-making.
 
-### 🧪 Business Impact
-Customer Report enables targeted marketing and retention by segmenting customers into VIP/Regular/New, tracking customer lifecycles, and calculating Lifetime Value metrics like AOV and monthly spend.
+### ✅ At-a-Glance Highlights
+- Built **customer_report** and **product_report** T-SQL views
+- Segmented ~100K customers into VIP / Regular / New
+- Identified top and bottom 5 products using rankings
+- Computed sales trends, YOY change, and proportional revenue analytics
 
-Product Report identifies top- and low-performing SKUs, supports pricing strategy, and highlights sales trends by product.
+### 🌍 Business Impact
+- Customer segmentation supports targeted marketing and retention
+- SKU analytics drive pricing and inventory decisions
 
-Building these insights via SQL demonstrates the ability to contribute to data-driven company goals, dashboards, and reporting workflows.
-
-### 🗺️ Project Scope & Workflow
+### 🧪 Project Scope & Workflow
 #### Exploration & EDA
 Use INFORMATION_SCHEMA.TABLES and COLUMNS to inspect schema.
 
@@ -48,5 +53,22 @@ Segment customers as VIP/Regular/New based on life span and spend thresholds.
 Customer Report View: merges aggregates and KPIs per customer (orders, spend, age, segmentation).
 
 Product Report View: aggregates product performance including sales count, segmentation tiers, average revenue metrics.
+
+### 🛠️ How to Run
+1. Run the schema exploration script.
+2. Build the reporting views via provided SQL files.
+3. Execute queries to preview results.
+4. Integrate views with BI tools for dashboards.
+
+### 🧰 Skills & Tools Used
+- SQL (CTEs, window functions: RANK(), LAG(),SUM(),AVG(),SUB-QUERIES,VIEWs)
+- KPI design: recency, AOV, customer segmentation,YOY
+- BI-ready SQL views for dashboard integration
+
+### 🧾 Sample Output
+| customer_key | segment | total_sales | avg_order_value | lifespan_months |
+|--------------|---------|-------------|------------------|-----------------|
+| 12345        | VIP     | $12,345     | $450             | 18              |
+
 
 
