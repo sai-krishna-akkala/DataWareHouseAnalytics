@@ -1,16 +1,16 @@
 # DataWareHouse Analytics Project
-##📊 Sales Data Analytics SQL Project
-##🔍 Project Purpose
+## 📊 Sales Data Analytics SQL Project
+### 🔍 Project Purpose
 Transform raw sales and dimension data into two strategic analytics views—Customer Report and Product Report—within the gold schema. These views turn transactional data into actionable business intelligence, ideal for dashboards and strategic decision-making.
 
-###🧪 Business Impact
+### 🧪 Business Impact
 Customer Report enables targeted marketing and retention by segmenting customers into VIP/Regular/New, tracking customer lifecycles, and calculating Lifetime Value metrics like AOV and monthly spend.
 
 Product Report identifies top- and low-performing SKUs, supports pricing strategy, and highlights sales trends by product.
 
 Building these insights via SQL demonstrates the ability to contribute to data-driven company goals, dashboards, and reporting workflows.
 
-###🗺️ Project Scope & Workflow
+### 🗺️ Project Scope & Workflow
 1. Exploration & EDA
 Use INFORMATION_SCHEMA.TABLES and COLUMNS to inspect schema.
 
