@@ -1,6 +1,4 @@
-# DataWareHouse Analytics Project
-
-## 📊 Sales Data Analytics SQL Project
+# 📊 Sales Data Analytics SQL Project
 
 ### 🔍 Project Purpose
 Transform raw sales and dimension data into two strategic analytics views—Customer Report and Product Report—within the gold schema. These views enable actionable BI insights for dashboards and strategic decision-making.
